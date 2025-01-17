@@ -41,9 +41,9 @@ This lack of diversity in the dataset meant the model was essentially “overfit
 
 To improve representation, I expanded the dataset to include:
 
-- Low-end systems with limited computational resources.
-- High-end systems with advanced hardware specs.
-- Training durations spanning from seconds to days.
+- **Low-end systems** with limited computational resources.
+- **High-end systems** with advanced hardware specs.
+- **Training durations spanning from seconds to days.**
 
 #### **System Diversity**
 The first step in the expansion was addressing the imbalance in system specifications. Many data points were clustered around mid-range systems, leaving low-end and high-end systems underrepresented. By including a broader range of system configurations, we achieved a more balanced dataset.
@@ -61,24 +61,16 @@ This expansion brought much-needed variety, but it also introduced new challenge
 
 ### Key Lessons Learned
 
-![An infographic summarizing the three lessons—representation, balance, and iteration.](path-to-image4.png)
-
-Here are the core takeaways from my experience:
-
-1. **Real-World Representation is Critical**  
-   A model’s success depends on how well its training dataset mirrors the scenarios it will encounter in production. Without this alignment, even a high-accuracy model can fail spectacularly.
-
-2. **Balancing Diversity is a Delicate Process**  
-   Simply adding more data isn’t enough. Dataset diversity needs to be carefully curated to ensure the model learns meaningful patterns without being overwhelmed by noise.
-
-3. **Iteration is Essential**  
-   Improving dataset representation is not a one-time fix. It requires continuous refinement and evaluation to align the model with real-world complexities.
+| Lesson           | Key Takeaway                                      |
+|------------------|--------------------------------------------------|
+| Representation   | Include diverse data to ensure better generalization. |
+| Balance          | Curate diversity to avoid introducing excessive noise. |
+| Iteration        | Continuously refine and evaluate datasets for real-world applicability. |
 
 ---
 
 ### Broader Implications
 
-![A flowchart showing how dataset diversity affects predictions across domains like healthcare, NLP, and finance.](path-to-image5.png)
 
 This issue extends far beyond my project. Here are some real-world examples where dataset representation matters:
 
@@ -90,11 +82,9 @@ This issue extends far beyond my project. Here are some real-world examples wher
 
 ### Tools and Techniques for Better Representation
 
-![A visual guide to tools like SMOTE, EDA techniques, and validation strategies.](path-to-image6.png)
-
 If you’re grappling with similar challenges, here are some strategies to improve dataset representation:
 
-1. **Use EDA to Identify Gaps**  
+1. **EDA to Identify Gaps**  
    Visualize your data to spot underrepresented groups or scenarios.
 
 2. **Leverage Synthetic Data**  
@@ -115,8 +105,6 @@ Predicting ML runtime isn’t just an academic exercise; it’s a real-world pro
 - **Efficient Resource Allocation**: Accurate predictions help teams optimize hardware usage and reduce costs.
 - **Realistic Expectations**: Stakeholders can plan timelines effectively, avoiding unnecessary delays or inefficiencies.
 
-![A workflow diagram showing how better predictions impact project timelines and resource management.](path-to-image7.png)
-
 Without a dataset that truly reflects the problem space, predictions can lead to wasted resources or poor decision-making.
 
 ---
@@ -125,10 +113,4 @@ Without a dataset that truly reflects the problem space, predictions can lead to
 
 This project reinforced the critical role of data diversity and quality in machine learning. A well-represented dataset doesn’t just make your model work; it makes it reliable, robust, and ready for real-world scenarios.
 
-Have you faced challenges with dataset representation in your projects? Let’s discuss! Share your experiences and strategies in the comments below—I’d love to learn from your insights. 🚀
-
----
-
-### What’s Next?
-
-Stay tuned as I continue exploring the intersection of machine learning and real-world challenges. Let’s build better, more inclusive models together!
+Have you faced challenges with dataset representation in your projects? Let’s discuss! Share your experiences and strategies in the comments below—I’d love to learn from your insights.
