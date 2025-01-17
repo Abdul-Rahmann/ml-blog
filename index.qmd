@@ -6,9 +6,6 @@ categories: [machine-learning, datasets, representation]
 image: "path-to-thumbnail.png" # Replace with actual image path
 ---
 
-
-## Why Real-World Representation in Machine Learning Datasets Matters
-
 ![This chart illustrates the improved diversity in the dataset after expansion, ensuring better model performance on varied real-world scenarios.](images/expansion.png)
 
 In machine learning, the adage “garbage in, garbage out” rings true. A model’s ability to generalize and perform well hinges on the quality of the data it’s trained on. Recently, I worked on a project predicting machine learning runtime based on system specifications and dataset properties—a seemingly straightforward task that taught me a profound lesson: true representation in datasets is key to building robust models.
